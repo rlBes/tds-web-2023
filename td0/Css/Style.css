@@ -1,7 +1,13 @@
-h2{
-    color: gray;
+body {
+    color:brown;
+
 }
-p{
+
+h2{
+    color: rgb(7, 6, 6);
+}
+
+br{
     font-size: 30px;
     color: blue;
 }
