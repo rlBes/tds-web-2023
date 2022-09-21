@@ -1,0 +1,10 @@
+.black-button{
+    color: white;
+    background-color: black;
+    margin: 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+.brown{
+    color: rgb(252, 95, 4);
+}
