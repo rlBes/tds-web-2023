@@ -22,10 +22,10 @@ nav{
 nav a{
     width: 100%;
     font-size: 30px; 
-    padding: 30px;
+    padding: 20px;
 }
 nav a:hover{
     background-color: black;
-    color:antiquewhite;
+    color:white;
     cursor: pointer;
 }
