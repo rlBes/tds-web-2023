@@ -1,10 +1,10 @@
 body {
-    color:brown;
-
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
-    color: rgb(7, 6, 6);
+    color: rgb(0, 0, 0);
 }
 
 br{
