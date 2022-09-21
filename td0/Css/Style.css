@@ -7,11 +7,7 @@ h2{
     color: rgb(0, 0, 0);
 }
 
-br{
+p{
     font-size: 30px;
     color: blue;
 }
-a[href=test-site.html] {
-    color: blue 
-}
-.c-rose
