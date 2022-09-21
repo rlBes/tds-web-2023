@@ -1,5 +1,5 @@
-.body{
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body{
+font-family: sans-serif;
 }
 
 .black-button{
@@ -12,4 +12,10 @@ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .brown{
     color: rgb(252, 95, 4);
+}
+#menu{
+}
+#menu li{
+    text-decoration: none;
+    padding-right: 20px;
 }
