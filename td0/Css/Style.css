@@ -1,9 +1,14 @@
+.body{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .black-button{
     color: white;
     background-color: black;
     margin: 20px auto;
     padding: 20px;
     width: 50%;
+    text-align: center;
 }
 .brown{
     color: rgb(252, 95, 4);
