@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align:center;
+
+ }
+nav {
+  margin: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+.menu-right{
+  position: fixed;
+  right: 0;
+  list-style: none;
+  top:15px
+}
+
+.menu-right a{
+  font-size: 1rem; 
+  padding: 10px;
+}
+   
+main {
+  flex: 0;
+}
+
+
+nav a:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    /***
+    transition : ...;
+    */
+}
