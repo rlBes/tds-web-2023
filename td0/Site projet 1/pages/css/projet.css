@@ -1,26 +1,45 @@
-nav{
-    position: fixed;
-    list-style: none;
-    top:15px;
-    right: 1rem;
-    font-size: 17px; 
-    padding: 10px;
-    justify-content: center;
-  }
-  
-
-
-  nav a:hover {
-    background-color: rgb(0, 0, 0);
-    color:rgb(255, 255, 255);
-    cursor: pointer;
-    animation-iteration-count: infinite;
-    padding: 2.5px;
-}
-
-body {font-family: sans-serif
+body {
+  font-family: sans-serif;
 }
 
 #moi {
 width: 400px;
 }
+
+.menu {
+  display: flex;                /* Transformation en flexbox */
+  padding:0;                    /* Suppression des marges internes */
+  background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+  justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.menu li {
+  list-style-type: none ;       /* Suppression des puces */
+
+}
+.menu a {
+  display:block;                /* Transformation en block */
+  min-width: 120px;             /* Largeur minimale des liens */   
+  
+  margin: 0.5rem;               /* Marges externes */
+  padding: 0.4rem 0;            /* Marges internes */
+  text-align: center;           /* Centrage du texte */   
+  background-color: #1ABC9C;    /* Arrière-plan */
+  color: #fff;                  /* Couleur du texte */
+  text-decoration: none;        /* Suppression du soulignement */
+  border: 1px solid #fff;       /* Ajout d'une bordure */
+  border-radius: 4px;           /* Arrondis des bordures */
+  
+  transition: all 1s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+  background-color: #000 ; 
+  color: #1ABC9C ;
+  border-color: #1ABC9C ;
+}
+.menu a:hover,
+.menu a:hover.actif{
+  background-color: #000000;
+  color: #ffe843;
+  border-color: #ffe843;
+}
+
