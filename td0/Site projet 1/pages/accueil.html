@@ -7,37 +7,34 @@
     </head>
 <body>
 
+<body>
+<header>
+
 <h1>Site de présentation professionnel :</h1>
 
-<header>
-    
-    <ul class="menu">
-        <li>
-          <a href="accueil.html">Accueil</a>
-        </li>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="accueil.html">Accueil</a>
+  <a href="a-propos.html">A propos</a>
+  <a href="compétences.html">Compétences</a>
+  <a href="éxpérience.html">Expériences</a>
+  <a href="formation.html">Formation</a>
+  <a href="contact.html">Contactez-nous</a>
+</div>
 
-        <li>
-          <a href="a-propos.html">A propos</a>
-        </li>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
 
-        <li>
-          <a href="compétences.html">Compétences</a>
-        </li>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
 
-        <a href="éxpérience.html">Experiences</a>
-        </li>
-
-        <li>
-        <a href="formation.html">Formation</a>
-        </li>
-
-        <li>
-        <a href="contact.html">Contact</a>
-        </li>
-    </ul>
-
-</header>
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 
 
 </body>
+</header>
