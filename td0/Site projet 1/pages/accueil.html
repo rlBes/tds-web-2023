@@ -10,10 +10,11 @@
 <body>
 <header>
 
-<h1>Site de présentation professionnel :</h1>
+  <h1>Site de présentation professionnel :</h1>
 
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn"
+  onclick="closeNav()">&times;</a>
   <a href="accueil.html">Accueil</a>
   <a href="a-propos.html">A propos</a>
   <a href="compétences.html">Compétences</a>
@@ -22,7 +23,7 @@
   <a href="contact.html">Contactez-nous</a>
 </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 <script>
 function openNav() {
@@ -30,11 +31,13 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").style.width = "30px";
 }
 </script>
-
-
-
-</body>
 </header>
+<main>
+Bonjour bienvenue sur mon site
+
+<img id="moi" src="img/moi.jpg">
+</main>
+</body>
