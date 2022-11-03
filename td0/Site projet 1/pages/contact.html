@@ -6,6 +6,7 @@
             <meta name="viewport" content="width=device-width,
             initial-scale=1">
             <link rel="stylesheet" href="css/projet.css">
+            <link rel="stylesheet" href="css/bg.css">
                        
   </head>
     <body>
@@ -41,26 +42,25 @@
 
 <main>
 
+<div class="container">
   <form action="/ma-page-de-traitement" method="post">
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail&nbsp;:</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="object">Objet du message :</label>
-        <input type="text" name="user_object"></textarea>
-    </div>
-    <div>
-      <label for="msg">Message :</label>
-      <textarea id="msg" name="user_message"></textarea>
-      <button>Submit</button>
-  </div>
+
+    <label for="fname">Nom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Jean..">
+
+    <label for="lname">Prénom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Neymar..">
+
+    <label for="lname">Objet du message</label>
+    <input type="text" id="lname" name="lastname" placeholder="Je conseil de changer..">
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
 
 </form>
+
 </main>
 
 
