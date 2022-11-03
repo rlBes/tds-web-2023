@@ -148,7 +148,7 @@ th {
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: rgb(94, 22, 88);
+  background: rgb(168, 9, 9);
 }
 
 .timeline ol li:last-child {
@@ -250,7 +250,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.contact {
   border-radius: 5px;
   background-color: #f8931fd7;
   padding: 20px;
