@@ -1,7 +1,7 @@
 body {
   font: normal 16px/1.5 sans-serif;
-  background: #456990;
   color: rgb(255, 255, 255);
+  background-color: rgb(65, 120, 182);
 }
 
 .sidebar {
