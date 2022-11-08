@@ -3,7 +3,8 @@ body {
     color: rgb(255, 255, 255);
     background: no-repeat;
     background-image: url('../img/fond.jpg');
-    z-index: 0;
-    background-size:initial;
+    width: 99%;
+    background-size: cover;
+    background-attachment: fixed;
   }
   

@@ -92,7 +92,7 @@ th {
 .exp {
   margin-left: 0px;
 }
-/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*––––––––––––TimeLine–––––––––––––––––––––––––––––––––––––– */
 
 *::before,
 *::after {
@@ -146,7 +146,7 @@ th {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 160px;
+  width: 10%;
   height: 3px;
   background: rgb(168, 9, 9);
 }
@@ -220,7 +220,7 @@ th {
   font-weight: bold;
   margin-bottom: 8px;
 }
-/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*–––––––––––––––––––––––Formulaire–––––––––––––––––––– */
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -255,3 +255,5 @@ input[type=submit]:hover {
   background-color: #f8931fd7;
   padding: 20px;
 }
+
+
