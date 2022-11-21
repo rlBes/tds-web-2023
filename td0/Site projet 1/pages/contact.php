@@ -52,12 +52,12 @@
     <input type="text" id="email" name="email" placeholder="JN@truc.fr..">
 
     <label for="lname">Objet du message</label>
-    <input type="text" id="lname" name="lastname" placeholder="Je conseil de changer..">
+    <input type="text" id="lname" name="lastname" placseholder="Je conseil de changer..">
 
     <label for="subject">Message</label>
     <textarea id="subject" name="subject" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <button type="submit">Submit</button>
 
 </form>
 
