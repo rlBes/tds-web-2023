@@ -14,12 +14,12 @@
     <main>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="accueil.html">Accueil</a>
-        <a href="a-propos.html">A propos</a>
-        <a href="compétences.html">Compétences</a>
-        <a href="éxpérience.html">Expériences</a>
-        <a href="formation.html">Formation</a>
-        <a href="contact.html">Contactez-nous</a>
+        <a href="accueil.php">Accueil</a>
+        <a href="a-propos.php">A propos</a>
+        <a href="compétences.php">Compétences</a>
+        <a href="éxpérience.php">Expériences</a>
+        <a href="formation.php">Formation</a>
+        <a href="contact.php">Contactez-nous</a>
       </div>
     
     <div id="main">
@@ -48,14 +48,14 @@
     <label for="fname">Nom</label>
     <input type="text" id="fname" name="firstname" placeholder="Jean Neymar..">
 
-    <label for="lname">E-Mail</label>
+    <label for="email">E-Mail</label>
     <input type="text" id="email" name="email" placeholder="JN@truc.fr..">
 
-    <label for="lname">Objet du message</label>
-    <input type="text" id="lname" name="lastname" placseholder="Je conseil de changer..">
+    <label for="object">Objet du message</label>
+    <input type="text" id="object" name="object" placeholder="Je conseil de changer..">
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
 
     <input type="submit">
 

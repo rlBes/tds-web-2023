@@ -11,15 +11,15 @@
   </head>
     <body>
 
-    <header>
+    <main>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="accueil.html">Accueil</a>
-        <a href="a-propos.html">A propos</a>
-        <a href="compétences.html">Compétences</a>
-        <a href="éxpérience.html">Expériences</a>
-        <a href="formation.html">Formation</a>
-        <a href="contact.html">Contactez-nous</a>
+        <a href="accueil.php">Accueil</a>
+        <a href="a-propos.php">A propos</a>
+        <a href="compétences.php">Compétences</a>
+        <a href="éxpérience.php">Expériences</a>
+        <a href="formation.php">Formation</a>
+        <a href="contact.php">Contactez-nous</a>
       </div>
     
     <div id="main">
@@ -37,11 +37,16 @@
       document.getElementById("main").style.marginLeft= "0";
     }
     </script>
-</header>
-<main>
-    <h2>Besnouin Roger-Louis</h2>
-    Actuellement en première année de BTS SIO option SISR à l’école Sainte-Ursule de Caen. Je vous présente mon premier site internet.
-</main>        
-    </body>
-</html>
+    </header>
 
+    <main>
+
+    <?php
+      $data = yaml_parse_file('DATA/a-propos.yaml');
+      echo '<p>'.$data['presentation'].'</p>';
+      echo '<br>';
+      echo '<p>'.$data['accroche'].'</p>';
+      echo  '<img id="moi" src="'.$data['image'].'">'
+    ?>
+    </main>   
+</body>

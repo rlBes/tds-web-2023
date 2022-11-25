@@ -12,12 +12,12 @@
   <main>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="accueil.html">Accueil</a>
-        <a href="a-propos.html">A propos</a>
-        <a href="compétences.html">Compétences</a>
-        <a href="éxpérience.html">Expériences</a>
-        <a href="formation.html">Formation</a>
-        <a href="contact.html">Contactez-nous</a>
+        <a href="accueil.php">Accueil</a>
+        <a href="a-propos.php">A propos</a>
+        <a href="compétences.php">Compétences</a>
+        <a href="éxpérience.php">Expériences</a>
+        <a href="formation.php">Formation</a>
+        <a href="contact.php">Contactez-nous</a>
       </div>
     
     <div id="main">
