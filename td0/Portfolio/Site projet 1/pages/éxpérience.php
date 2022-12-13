@@ -41,51 +41,54 @@
 </header>
 
 <main>
-  <hr noshade="noshade">
-    <ul class="exp">
+
+<?php 
+$data = yaml_parse_file('DATA/éxperience.yaml');
+
+echo '<hr noshade="noshade">
+<ul class="exp">
 <p>
-<b>Livreur Magasinier (Intérim)<br>
-Homeperf | juillet - août 2022 | Caen<br></b>
+<b>'.$data['métier1'].'<br>'
+.$data['InfoMétier1'].'<br></b>
 <hr noshade="noshade">
-<li>Réception du matériel</li>
-<li>Rapprocher les bons de livraison et commande</li>
-<li>Préparer les commandes</li>
-<li>Livrer au domicile du patient</li>
+<li>'.$data['tacheslivreur1'].'</li>
+<li>'.$data['tacheslivreur2'].'</li>
+<li>'.$data['tacheslivreur3'].'</li>
+<li>'.$data['tacheslivreur4'].'</li>
 </p>
 <hr noshade="noshade">
 <p>
-<b>Agent de production agroalimentaire (CDD)<br>
-Traiteurs de la touques | février 2022 - avril 2022 | Gacé<br></b>
-<li>Garantir l'approvisionnement des machines</li>
-<li>Vérifier et préparer des opérations</li>
-<li>Approvisionner des marchandises</li>
-<li>Contrôles visuels : éliminer les produits défectueux</li>
-<li>Assurer la propreté de son poste de travail (selon les normes
-de qualité, d'hygiènes et de sécurité)</li>
+<b>'.$data['métier2'].'<br>'
+.$data['InfoMétier2'].'<br></b>
+<li>'.$data['tachesAgent1'].'</li>
+<li>'.$data['tachesAgent2'].'</li>
+<li>'.$data['tachesAgent3'].'</li>
+<li>'.$data['tachesAgent4'].'</li>
+<li>'.$data['tachesAgent5'].'</li>
 </p>
 <hr noshade="noshade">
 <p>
-<b>Responsable de fruits et légumes (CDD)<br>
-Groupe Carrefour | septembre 2021 - décembre 2021 | Cabourg<br></b>
-<li>Recevoir la marchandise</li>
-<li>Remplir les rayons fruits et légumes en respectant le plan
-d'implantation</li>
-<li>Accueillir et conseiller les client : développer les ventes en
-fidélisant les clients du rayon</li>
-<li>Réapprovisionner les rayons tout au long de la journée</li>
-<li>Etiqueter les produits : signalétiques ou promotions</li>
-<li>Garantir la qualité et la fraîcheur des produits</li>
+<b>'.$data['métier3'].'<br>'
+.$data['InfoMétier3'].'<br></b>
+<li>'.$data['tachesResponsable1'].'</li>
+<li>'.$data['tachesResponsable2'].'</li>
+<li>'.$data['tachesResponsable3'].'</li>
+<li>'.$data['tachesResponsable4'].'</li>
+<li>'.$data['tachesResponsable5'].'</li>
+<li>'.$data['tachesResponsable6'].'</li>
 </p>
 <hr noshade="noshade">
 <p>
-<b>Assistant Marketing (stage d'étude)<br>
-Paraden | juin 2021 - juillet 2021 | Argentan<br></b>
-<li>Aider les entreprises dans leur digitalisation</li>
-<li>Créer un processus d’acquisition client grâce à des outils : CRM/CMS, plateformes intranet nouvelle génération, Cloud</li>
+<b>'.$data['métier4'].'<br>'
+.$data['InfoMétier4'].'<br></b>
+<li>'.$data['tachesAssistant1'].'</li>
+<li>'.$data['tachesAssistant2'].'</li>
 
 </p>
     </ul>
-    <hr noshade="noshade">
+    <hr noshade="noshade">'
+?>
+
 </main>
 
 <footer>

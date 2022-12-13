@@ -39,49 +39,52 @@
 </header>
 
 <main>
-<section class="section intro">
-  <div class="container">
-    <h1>FORMATIONS</h1>
-  </div>
-</section>
+<?php
+  $data = yaml_parse_file('DATA/formation.yaml');
+  
+echo '<section class="section intro">
+        <div class="container">
+          <h1>'.$data['titre'].'</h1>
+        </div>
+      </section>';
 
-<section class="timeline">
+echo '<section class="timeline">
   <ol>
 
     <li></li>
    
     <li>
       <div>
-        <time>2017 – 2018</time> 
-        <b>Seconde Générale | Mezeray | Argentan</b>
+        <time>'.$data['2017-2018'].'</time> 
+        <b>'.$data['Seconde'].'</b>
       </div>
     </li>
 
     <li>
       <div>
-        <time>2018 – 2019</time> 
-        <b>Première STMG | Mezeray | Argentan</b>
+        <time>'.$data['2018-2019'].'</time> 
+        <b>'.$data['Première'].'</b>
       </div>
     </li>
 
     <li>
       <div>
-        <time>2019 – 2020</time> 
-        <b>Bac STMG | Saint François Sales | Alençon</b>
+        <time>'.$data['2019-2020'].'</time> 
+        <b>'.$data['Terminal STMG'].'</b>
       </div>
     </li>
 
     <li>
       <div>
-        <time>2020 – 2021</time> 
-        <b>BTS NDRC | E2SE | Caen</b>
+        <time>'.$data['2020-2021'].'</time> 
+        <b>'.$data['BTS NDRC'].'</b>
       </div>
     </li>
 
     <li>
       <div>
-        <time>2022 - 2024</time> 
-        <b>BTS SIO option SISR | Sainte-Ursule | Caen</b>
+        <time>'.$data['2022-2024'].'</time> 
+        <b>'.$data['BTS SIO'].'</b>
       </div>
     </li>
     
@@ -90,7 +93,8 @@
     <li></li>
   </ol>
   </div>
-</section>
+</section>'
+?>
 </main>
 
 <footer>

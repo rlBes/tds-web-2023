@@ -1,0 +1,51 @@
+métier1	:	Livreur Magasinier (Intérim)
+
+InfoMétier1	:	Homeperf | juillet - août 2022 | Caen
+
+tacheslivreur1	:	Réception du matériel
+
+tacheslivreur2	:	Rapprocher les bons de livraison et commande
+
+tacheslivreur3	:	Préparer les commandes
+
+tacheslivreur4	:	Livrer au domicile du patient
+
+métier2	:	Agent de production agroalimentaire (CDD)
+
+InfoMétier2	:	Traiteurs de la touques | février 2022 - avril 2022 | Gacé
+
+tachesAgent1	:	Garantir l'approvisionnement des machines
+
+tachesAgent2	:	Vérifier et préparer des opérations
+
+tachesAgent3	:	Approvisionner des marchandises
+tachesAgent4	:	|
+                    Contrôles visuels : éliminer les produits défectueux
+                    
+tachesAgent5	:	Assurer la propreté de son poste de travail (selon les                      normes de qualité, d'hygiènes et de sécurité)
+
+métier3	:	Responsable de fruits et légumes (CDD)
+
+InfoMétier3	:	Groupe Carrefour | septembre 2021 - décembre 2021 | Cabourg
+
+tachesResponsable1	:	Recevoir la marchandise
+
+tachesResponsable2	:	Remplir les rayons fruits et légumes en respectant le plan d'implantation
+
+tachesResponsable3	:  |	
+                       Accueillir et conseiller les client : développer les ventes en\nfidélisant les clients du rayon
+
+tachesResponsable4	:	Réapprovisionner les rayons tout au long de la journée
+
+tachesResponsable5	:	|
+                        Etiqueter les produits : signalétiques ou promotions
+
+tachesResponsable6	:	Garantir la qualité et la fraîcheur des produits
+
+métier4	:	Assistant Marketing (stage d'étude)
+
+InfoMétier4	:	Paraden | juin 2021 - juillet 2021 | Argentan
+
+tachesAssistant1	:	Aider les entreprises dans leur digitalisation
+tachesAssistant2	:	|
+                         Créer un processus d'acquisition client grâce à des outils : CRM/CMS, plateformes intranet nouvelle génération, Cloud
