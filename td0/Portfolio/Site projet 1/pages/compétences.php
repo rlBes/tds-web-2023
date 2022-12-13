@@ -42,6 +42,11 @@
 
 <main>
     <table>
+
+<?php
+  $data = yaml_parse_file('DATA/compétences.yaml');
+  echo '<h2>'.$data['titre'].'</h2>';
+?>
         <caption><h1>Compétences</h1></caption>
      
         <thead> <!-- En-tête du tableau -->
