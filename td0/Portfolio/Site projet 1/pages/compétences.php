@@ -45,48 +45,45 @@
 
 <?php
   $data = yaml_parse_file('DATA/compétences.yaml');
-  echo '<h2>'.$data['titre'].'</h2>';
-?>
-        <caption><h1>Compétences</h1></caption>
-     
-        <thead> <!-- En-tête du tableau -->
-            <tr>
-                <th>Domaines :</th>
-                <th>Développement</th>
-                <th>Réseau</th>
-                <th>Langues</th>
-            </tr>
+  echo '<caption><h1>'.$data['titre'].'</h1></caption>';
+  echo '<thead> 
+          <tr>
+           <th>'.$data['Domaines'].'</th>
+           <th>'.$data['Développement'].'</th>
+           <th>'.$data['Réseau'].'</th>
+           <th>'.$data['Langues'].'</th>
+          </tr>
         </thead>
-         
-        <tbody> <!-- Corps du tableau -->
+
+        <tbody> 
             <tr>
                 <td></td>
-                <td>HTML</td>
-                <td>Cisco Packet Tracer</td>
-                <td>Anglais</td>
+                <td>'.$data['HTML'].'</td>
+                <td>'.$data['Cisco Packet Tracer'].'</td>
+                <td>'.$data['Anglais'].'</td>
             </tr>
             <tr>
                 <td></td>
-                <td>CSS</td>
+                <td>'.$data['CSS'].'</td>
                 <td></td>
             </tr>
             <tr>
                 <td></td>
-                <td>PHP</td>
+                <td>'.$data['PHP'].'</td>
                 <td></td>
             </tr>
         </tbody>
 
-        <tfoot> <!-- Pied de tableau -->
+        <tfoot> 
             <tr>
-                <th>Niveau dans le domaine :</th>
-                <th>*</th>
-                <th>*</th>
-                <th>B2</th>
+                <th>'.$data['Niveau'].'</th>
+                <th>'.$data['NiveauDev'].'</th>
+                <th>'.$data['NiveauRéseaux'].'</th>
+                <th>'.$data['NiveauAnglais'].'</th>
             </tr>
         </tfoot>
 
-     </table>
-
+     </table>'
+?>  
   </main>
 </body>
