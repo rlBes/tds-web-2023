@@ -48,16 +48,16 @@
 echo '<div class="contact">
   <form action="send.php" method="post">';
 
-echo '<label for="fname">'.$data['Nom'].'</label>
+echo '<label for="fname">'.$data['name'].'</label>
     <input type="text" id="fname" name="firstname" placeholder="Jean Neymar..">
 
-    <label for="email">'.$data['Email'].'</label>
+    <label for="email">'.$data['email'].'</label>
     <input type="text" id="email" name="email" placeholder="JN@truc.fr..">
 
-    <label for="object">'.$data['Objet'].'</label>
+    <label for="object">'.$data['objet'].'</label>
     <input type="text" id="object" name="object" placeholder="Je conseil de changer..">
 
-    <label for="message">'.$data['Message'].'</label>
+    <label for="message">'.$data['message'].'</label>
     <textarea id="message" name="message" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
 
     <input type="submit">
