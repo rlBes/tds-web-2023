@@ -11,7 +11,7 @@
   </head>
     <body>
 
-    <main>
+    <header>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Accueil</a>
@@ -38,53 +38,16 @@
       document.getElementById("main").style.marginLeft= "0";
     }
     </script>
-          
-    </header>
-
+</header>
 <main>
-    <table>
 
 <?php
-  $data = yaml_parse_file('DATA/compétences.yaml');
-  echo '<caption><h1>'.$data['titre'].'</h1></caption>';
-  echo '<thead> 
-          <tr>
-           <th>'.$data['Domaines'].'</th>
-           <th>'.$data['Développement'].'</th>
-           <th>'.$data['Réseau'].'</th>
-           <th>'.$data['Langues'].'</th>
-          </tr>
-        </thead>
+  $data = yaml_parse_file('DATA/accueil.yaml');
+  echo '<h2>'.$data['nom'].' '.$data['prenom'].'</h2>';
+  echo $data['accroche'];
+?>
 
-        <tbody> 
-            <tr>
-                <td></td>
-                <td>'.$data['HTML'].'</td>
-                <td>'.$data['Cisco Packet Tracer'].'</td>
-                <td>'.$data['Anglais'].'</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>'.$data['CSS'].'</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>'.$data['PHP'].'</td>
-                <td></td>
-            </tr>
-        </tbody>
+</main>        
+    </body>
+</html>
 
-        <tfoot> 
-            <tr>
-                <th>'.$data['Niveau'].'</th>
-                <th>'.$data['NiveauDev'].'</th>
-                <th>'.$data['NiveauRéseaux'].'</th>
-                <th>'.$data['NiveauAnglais'].'</th>
-            </tr>
-        </tfoot>
-
-     </table>'
-?>  
-  </main>
-</body>

@@ -14,12 +14,13 @@
     <main>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="accueil.php">Accueil</a>
+        <a href="index.php">Accueil</a>
         <a href="a-propos.php">A propos</a>
         <a href="compétences.php">Compétences</a>
         <a href="éxpérience.php">Expériences</a>
         <a href="formation.php">Formation</a>
         <a href="contact.php">Contactez-nous</a>
+        <a href="https://www.linkedin.com/in/roger-louis-besnouin-b51014211/" target="_blank"><img id="linkedin" src="img/linkedin.png"></a>
       </div>
     
     <div id="main">

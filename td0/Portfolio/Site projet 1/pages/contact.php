@@ -14,12 +14,13 @@
     <main>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="accueil.php">Accueil</a>
+        <a href="index.php">Accueil</a>
         <a href="a-propos.php">A propos</a>
         <a href="compétences.php">Compétences</a>
         <a href="éxpérience.php">Expériences</a>
         <a href="formation.php">Formation</a>
         <a href="contact.php">Contactez-nous</a>
+        <a href="https://www.linkedin.com/in/roger-louis-besnouin-b51014211/" target="_blank"><img id="linkedin" src="img/linkedin.png"></a>
       </div>
     
     <div id="main">
@@ -63,9 +64,17 @@ echo '<label for="fname">'.$data['name'].'</label>
     <input type="submit">
 
 </form>'
-
 ?>
 </main>
-
+<footer>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf63ZMjAAAAAA4Urs9K6jVlpE1xiamEVxoOAjp7"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6Lf63ZMjAAAAAA4Urs9K6jVlpE1xiamEVxoOAjp7', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
+</footer>
 
 </body>

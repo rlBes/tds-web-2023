@@ -61,6 +61,17 @@ body {
   .sidebar a {font-size: 18px;}
 }
 
+#linkedin { 
+  width: 50px;
+  border-radius: 30%;
+  border: solid 2px rgb(255, 255, 255);
+  display: block;
+  margin-left: 1px;
+  margin-right: 100px;
+  margin-top: 400px;
+  margin-bottom: 1px;
+}
+
 #moi { 
 width: 300px;
 border-radius: 30%;
@@ -70,7 +81,6 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 90px;
 }
-
 
 table {
 border-collapse: collapse;
