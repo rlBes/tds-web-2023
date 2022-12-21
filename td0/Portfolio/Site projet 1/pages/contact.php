@@ -9,9 +9,9 @@
             <link rel="stylesheet" href="css/bg.css">
                        
   </head>
-    <body>
 
-    <main>
+    <body>
+    <header>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.php">Accueil</a>
@@ -42,10 +42,8 @@
 </header>
 
 <main>
-
 <?php $data = yaml_parse_file('DATA/contact.yaml');
-  
-  
+
 echo '<div class="contact">
   <form action="send.php" method="post">';
 
@@ -62,15 +60,16 @@ echo '<label for="fname">'.$data['name'].'</label>
     <textarea id="message" name="message" placeholder="Je trouve ton site très beau.." style="height:200px"></textarea>
 
     <input type="submit">
-
+    <input type="hidden" id="recaptchaResponse" name="recaptcha-response">
 </form>'
 ?>
 </main>
+
 <footer>
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6Lf63ZMjAAAAAA4Urs9K6jVlpE1xiamEVxoOAjp7"></script>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LcgmZYjAAAAAH_6oqEq5qygzM8Gsyq_nPKefX5b"></script>
 <script>
 grecaptcha.enterprise.ready(function() {
-    grecaptcha.enterprise.execute('6Lf63ZMjAAAAAA4Urs9K6jVlpE1xiamEVxoOAjp7', {action: 'login'}).then(function(token) {
+    grecaptcha.enterprise.execute('6LcgmZYjAAAAAH_6oqEq5qygzM8Gsyq_nPKefX5b', {action: 'login'}).then(function(token) {
        ...
     });
 });
